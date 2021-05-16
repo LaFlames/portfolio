@@ -1,0 +1,34 @@
+
+.btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: $btn-color 4px solid;
+    padding: 0.25em 1em;
+    color: $btn-color;
+    border-radius: 0.25em;
+    text-shadow: 
+    0 0 0.125em $btn-color,
+    0 0 0.45em $btn-color;
+    box-shadow: inset 0 0 0.5em 0 $btn-color,
+    0 0 0.5em 0 $btn-color;
+    position: relative;
+    &:hover/* , &:focus */ {
+        background: $btn-color;
+        color: hsl(323, 21%, 16%);
+        text-shadow: none;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        box-shadow: 0 0 1em 0.5em $btn-color;
+        opacity: 0;
+        transition: opacity 400ms linear;
+    }
+    &:hover::after {
+        opacity: 1;
+    }
+}
