@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9d5b8551.chunk.css",
+    "main.js": "/portfolio/static/js/main.dc478680.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dc478680.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d6372b15.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d6372b15.js.map",
+    "static/js/2.8e1216fd.chunk.js": "/portfolio/static/js/2.8e1216fd.chunk.js",
+    "static/js/2.8e1216fd.chunk.js.map": "/portfolio/static/js/2.8e1216fd.chunk.js.map",
+    "static/js/3.28f0a00f.chunk.js": "/portfolio/static/js/3.28f0a00f.chunk.js",
+    "static/js/3.28f0a00f.chunk.js.map": "/portfolio/static/js/3.28f0a00f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.9d5b8551.chunk.css.map": "/portfolio/static/css/main.9d5b8551.chunk.css.map",
+    "static/js/2.8e1216fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8e1216fd.chunk.js.LICENSE.txt",
+    "static/media/close.580f8fb9.svg": "/portfolio/static/media/close.580f8fb9.svg",
+    "static/media/facebook.be39262b.svg": "/portfolio/static/media/facebook.be39262b.svg",
+    "static/media/github.5cda2845.svg": "/portfolio/static/media/github.5cda2845.svg",
+    "static/media/instagram.d0e28fbe.svg": "/portfolio/static/media/instagram.d0e28fbe.svg",
+    "static/media/App.scss": "/portfolio/static/media/main_bg.11c4f30d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6372b15.js",
+    "static/js/2.8e1216fd.chunk.js",
+    "static/css/main.9d5b8551.chunk.css",
+    "static/js/main.dc478680.chunk.js"
+  ]
+}
