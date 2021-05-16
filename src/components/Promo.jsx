@@ -5,7 +5,7 @@ import githubLogo from '../icons/social/github.svg';
 import close from '../icons/close.svg';
 
 
-export function Promo() {
+function Promo() {
 
     let [openMenuClass, setOpenMenuClass] = useState("menu");
 
@@ -21,12 +21,12 @@ export function Promo() {
         <div className='promo'>
 
             <aside className='sidepanel'>
-            <a href="#" className="sidepanel__link"><img src={facebookLogo} alt="facebook" /></a>
-            <a href="#" className="sidepanel__link"><img src={instagramLogo} alt="instagram" /></a>
-            <a href="#" className="sidepanel__link"><img src={githubLogo} alt="github" /></a>
-            <div className="sidepanel__divider"></div>
-            <div className="sidepanel__text"><span>Социальные сети</span></div>
-        </aside>
+                <div className="sidepanel__divider"></div>
+                <a href="#" className="sidepanel__link"><img src={facebookLogo} alt="facebook" /></a>
+                <a href="#" className="sidepanel__link"><img src={instagramLogo} alt="instagram" /></a>
+                <a href="#" className="sidepanel__link"><img src={githubLogo} alt="github" /></a>
+                <div className="sidepanel__divider"></div>
+            </aside>
 
             <div className={openMenuClass}>
                 <div className="menu__block">
@@ -35,11 +35,11 @@ export function Promo() {
                     </div>
                     <nav>
                         <ul className="menu__list">
-                            <li className="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                            <li className="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                            <li className="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                            <li className="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                            <li className="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                            <li className="menu__link"><a href="#">About me</a></li>
+                            <li className="menu__link"><a href="#">My experience</a></li>
+                            <li className="menu__link"><a href="#">Skills</a></li>
+                            <li className="menu__link"><a href="#">Works</a></li>
+                            <li className="menu__link"><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -47,24 +47,23 @@ export function Promo() {
             </div>
         
             <section>
-            <div onClick={openMenuHandler} className='hamburger'>
-                <span></span>
-                <span className='long'></span>
-                <span></span>
-            </div>
-            <div className='container'>
-                <div className='title title_fz16 promo__subtitle'>Меня зовут Козловский Виталий</div>
-                <h1 className='title title_fz48 promo__title'>Я frontend-developer из города Новополоцк</h1>
+                <div onClick={openMenuHandler} className='hamburger'>
+                    <span></span>
+                    <span className='long'></span>
+                    <span></span>
+                </div>
+                <div className='container'>
+                <div className='title title_fz16 promo__subtitle'>Hello my friends!</div>
+                <h1 className='title title_fz48 promo__title'>I am Vitali Kazlouski, a front-end developer</h1>
                 <div className='promo__btns'>
-                    <a href="#" className='promo__link btn'>Портфолио</a>
-                    <a href="#" className='promo__link'>Про меня</a>
+                    <a href="#" className='promo__link btn'>Portfolio</a>
+                    <a href="#" className='promo__link'>About me</a>
                 </div>
             </div>
         </section>
         
         </div>
     )
-
-    
-
 }
+
+export default Promo
