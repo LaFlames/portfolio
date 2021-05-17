@@ -14,7 +14,7 @@ export default function About() {
                     <div className="about__descr">
                         <h2 className="title title_fz20 about__title">About me</h2>
                         <div className="divider"></div>
-                        <p className="about__text">Мне 23 года. Живу в Беларуси, город Новополоцк. Увлекаюсь спортом, в частности баскетболом и воркаутом. Окончил университет и получил специальность инженера-строителя. В данный момент развиваюсь как web-разработчик, front-end developer. Ищу работу по вакансии Junior front-end разработчик, готов к переезду.</p>
+                        <p className="about__text">23 years old. I live in Belarus, Novopolotsk. I am fond of sports, basketball and workout in particular. In 2019 i graduated from the university and received the specialty of a civil engineer. But currently I want to be a great front-end developer. Looking for a job for the vacancy Junior front-end developer, ready to move.</p>
                     </div>
                     <div className="about__skills">
                         <div className="about__skills-item">
@@ -23,10 +23,10 @@ export default function About() {
                             </div>
                             <div>
                                 <div className="title title_fz16">
-                                    Вёрстка сайтов
+                                    Website layout
                                 </div>
                                 <div className="about__skills-text">
-                                Верстаю лендинги, используя SASS/SCSS, Gulp, Grid, Flex.
+                                    Layout landings, using SASS/SCSS, Gulp, Grid, Flex.
                                 </div>
                             </div>
                         </div>
@@ -36,10 +36,10 @@ export default function About() {
                             </div>
                             <div>
                                 <div className="title title_fz16">
-                                    Разработка приложений
+                                    App development
                                 </div>
                                 <div className="about__skills-text">
-                                    Работа над приложениями, используя Javascript, React, Redux.
+                                    Work on creating dextop apps, using Javascript, React, Redux.
                                 </div>
                             </div>
                         </div>

@@ -57,7 +57,7 @@ function Promo() {
                 <h1 className='title title_fz48 promo__title'>I am Vitali Kazlouski, a front-end developer</h1>
                 <div className='promo__btns'>
                     <a href="#" className='promo__link btn'>Portfolio</a>
-                    <a href="#" className='promo__link'>About me</a>
+                    {/* <a href="#" className='promo__link'>About me</a> */}
                 </div>
             </div>
         </section>
