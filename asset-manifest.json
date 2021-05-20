@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d5b8551.chunk.css",
-    "main.js": "/portfolio/static/js/main.dc478680.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dc478680.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.172fd601.chunk.css",
+    "main.js": "/portfolio/static/js/main.a7eaaae2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a7eaaae2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d6372b15.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d6372b15.js.map",
     "static/js/2.8e1216fd.chunk.js": "/portfolio/static/js/2.8e1216fd.chunk.js",
@@ -10,18 +10,35 @@
     "static/js/3.28f0a00f.chunk.js": "/portfolio/static/js/3.28f0a00f.chunk.js",
     "static/js/3.28f0a00f.chunk.js.map": "/portfolio/static/js/3.28f0a00f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9d5b8551.chunk.css.map": "/portfolio/static/css/main.9d5b8551.chunk.css.map",
+    "static/css/main.172fd601.chunk.css.map": "/portfolio/static/css/main.172fd601.chunk.css.map",
     "static/js/2.8e1216fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8e1216fd.chunk.js.LICENSE.txt",
     "static/media/close.580f8fb9.svg": "/portfolio/static/media/close.580f8fb9.svg",
-    "static/media/facebook.be39262b.svg": "/portfolio/static/media/facebook.be39262b.svg",
-    "static/media/github.5cda2845.svg": "/portfolio/static/media/github.5cda2845.svg",
-    "static/media/instagram.d0e28fbe.svg": "/portfolio/static/media/instagram.d0e28fbe.svg",
-    "static/media/App.scss": "/portfolio/static/media/main_bg.11c4f30d.jpg"
+    "static/media/courses.d84c46a0.svg": "/portfolio/static/media/courses.d84c46a0.svg",
+    "static/media/css3.e429c28d.svg": "/portfolio/static/media/css3.e429c28d.svg",
+    "static/media/developer.b866068d.svg": "/portfolio/static/media/developer.b866068d.svg",
+    "static/media/facebook.d683b0b8.svg": "/portfolio/static/media/facebook.d683b0b8.svg",
+    "static/media/github.75853d10.svg": "/portfolio/static/media/github.75853d10.svg",
+    "static/media/html5.359612fd.svg": "/portfolio/static/media/html5.359612fd.svg",
+    "static/media/instagram.28b33ede.svg": "/portfolio/static/media/instagram.28b33ede.svg",
+    "static/media/js.656b841c.svg": "/portfolio/static/media/js.656b841c.svg",
+    "static/media/App.scss": "/portfolio/static/media/main_bg.11c4f30d.jpg",
+    "static/media/main_photo.0a065a9b.jpg": "/portfolio/static/media/main_photo.0a065a9b.jpg",
+    "static/media/me.4f2f619d.jpg": "/portfolio/static/media/me.4f2f619d.jpg",
+    "static/media/mobile_dev.2ebdfafe.svg": "/portfolio/static/media/mobile_dev.2ebdfafe.svg",
+    "static/media/mongo.db.38f78a09.svg": "/portfolio/static/media/mongo.db.38f78a09.svg",
+    "static/media/plans.cca8fe94.jpg": "/portfolio/static/media/plans.cca8fe94.jpg",
+    "static/media/pulse.58c788f8.jpg": "/portfolio/static/media/pulse.58c788f8.jpg",
+    "static/media/react.49880c79.svg": "/portfolio/static/media/react.49880c79.svg",
+    "static/media/socialnetwork.d6dff01b.jpg": "/portfolio/static/media/socialnetwork.d6dff01b.jpg",
+    "static/media/telegram.74b9d935.svg": "/portfolio/static/media/telegram.74b9d935.svg",
+    "static/media/uber.ad4ee376.jpg": "/portfolio/static/media/uber.ad4ee376.jpg",
+    "static/media/university.029a36d8.svg": "/portfolio/static/media/university.029a36d8.svg",
+    "static/media/web_development.b92a6293.svg": "/portfolio/static/media/web_development.b92a6293.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d6372b15.js",
     "static/js/2.8e1216fd.chunk.js",
-    "static/css/main.9d5b8551.chunk.css",
-    "static/js/main.dc478680.chunk.js"
+    "static/css/main.172fd601.chunk.css",
+    "static/js/main.a7eaaae2.chunk.js"
   ]
 }
