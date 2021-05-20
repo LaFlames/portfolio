@@ -8,9 +8,8 @@ function Resume() {
     return (
         <section className="about">
             <div className="container">
-                <h2 className="title title_fz20 resume__title">Experience</h2>
+                <h2 className="title title_fz20 title__section-title">Experience</h2>
                 <div className="divider"></div>
-
                 <div className="resume__wrapper">
                     <div className="resume__column">
                         <h3 className="title title_fz16 resume__column-title">Education</h3>

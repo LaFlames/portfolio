@@ -2,6 +2,8 @@ import Promo from './components/Promo';
 import About from './components/About';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
 import './sass/App.scss';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <About />
       <Resume />
       <Skills />
+      <Portfolio />
+      <Contacts />
     </div>
   );
 }

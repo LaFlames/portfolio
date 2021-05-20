@@ -10,7 +10,7 @@ function Skills() {
     return (
         <section className="skills">
             <div className="container">
-                <h2 className="title title_fz20 skills__title">Skills</h2>    
+                <h2 className="title title_fz20 title__section-title">Skills</h2>    
                 <div className="divider"></div>
                 <div className="skills__items">
                     <div className="skills__item">
