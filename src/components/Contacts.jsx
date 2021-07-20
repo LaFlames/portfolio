@@ -26,7 +26,7 @@ function Contacts() {
                             </a>
                         </div>
                         <div className="title title_fz16 contacts__subtitle">
-                            Или оставьте ваши данные и я вам отвечу:
+                            Or leave your report and I will answer you soon!
                         </div>
                         <form action="#" className="contacts__form">
                             <div className="contacts__input">

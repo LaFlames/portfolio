@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -32,3 +33,4 @@
 @import './component-styles/Contacts';
 @import './blocks/title';
 @import './blocks//buttons';
+@import './component-styles/media';
