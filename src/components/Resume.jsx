@@ -6,7 +6,7 @@ import devIcon from '../icons/experience/developer.svg';
 
 function Resume() {
     return (
-        <section className="about">
+        <section className="resume">
             <div className="container">
                 <h2 className="title title_fz20 title__section-title">Experience</h2>
                 <div className="divider"></div>
@@ -23,7 +23,7 @@ function Resume() {
                                         <h4 className="title title_fz14">IT-INCUBATOR</h4>
                                         <div className="resume__item-location">React-development | 2021</div>
                                     </div>
-                                    <div className="resume__item-body">Still studying.</div>
+                                    <div className="resume__item-body">Study React, Javascript, Redux, Storybook and unit testing, typescript, redux-thunk.</div>
                                 </div>
                             </li>
                             <li>
@@ -36,7 +36,7 @@ function Resume() {
                                         <div className="resume__item-location">Web-development | 2020</div>
                                     </div>
                                     <div className="resume__item-body">
-                                    Completed the full course on layout from Ivan Petrichenko <a href="https://www.udemy.com/course/webdeveloper/"> https://www.udemy.com/course/webdeveloper </a>
+                                    Completed the full course on layout from Ivan Petrichenko. Learn HTML, CSS and how to use Sass(Scss), Gulp, adaptive layout. Work with figma, avocode and photoshop. <a href="https://www.udemy.com/course/webdeveloper/"> https://www.udemy.com/course/webdeveloper </a>
                                     </div>
                                 </div>
                             </li>
@@ -50,7 +50,7 @@ function Resume() {
                                         <div className="resume__item-location">Civil engineer diploma | Novopolotsk (2014-2019)</div>
                                     </div>
                                     <div className="resume__item-body">
-                                    Higher technical education. Worked for two years in this specialty. Responsibilities included: work with drawings, autocad, exsel.
+                                    Higher technical education. Worked for two years in this specialty. Responsibilities included: work with drawings, autocad.
                                     </div>
                                 </div>
                             </li>
@@ -66,11 +66,11 @@ function Resume() {
                                         <div className="resume__item-icon">
                                             <img src={experienceIcon} alt="university" />
                                         </div>
-                                        <h4 className="title title_fz14">Don't have any commercial exp:(</h4>
-                                        <div className="resume__item-location">.</div>
+                                        <h4 className="title title_fz14">Freelance</h4>
+                                        <div className="resume__item-location">2021</div>
                                     </div>
                                     <div className="resume__item-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint molestiae voluptate! Quibusdam quaerat fugit mollitia cumque natus necessitatibus ipsum maxime delectus possimus? Voluptatibus corporis laudantium saepe et reprehenderit ipsum!
+                                        Work on apps, such as social network, todolists, counter. Orginize data with redux, use typescript.
                                     </div>
                                 </div>
                             </li>

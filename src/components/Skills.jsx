@@ -3,7 +3,8 @@ import htmlIcon from '../icons/skills/html5.svg';
 import cssIcon from '../icons/skills/css3.svg';
 import jsIcon from '../icons/skills/js.svg';
 import reactIcon from '../icons/skills/react.svg';
-import mongoIcon from '../icons/skills/mongo.db.svg';
+import typescriptIcon from '../icons/skills/typescript.svg';
+import reduxIcon from '../icons/skills/redux.svg';
 
 
 function Skills() {
@@ -42,24 +43,17 @@ function Skills() {
                         </p>
                     </div>
                     <div className="skills__item">
-                        <img src="" alt="redux" />
+                        <img src={reduxIcon} alt="redux" />
                         <h2 className="title title_fz16 skills__item-title">Redux</h2>
                         <p className="skills__item-descr">
-                            
+                        Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments and are easy to test. 
                         </p>
                     </div>
                     <div className="skills__item">
-                        <img src={mongoIcon} alt="mongo" />
-                        <h2 className="title title_fz16 skills__item-title">MongoDB</h2>
-                        <p className="skills__item-descr">
-                            
-                        </p>
-                    </div>
-                    <div className="skills__item">
-                        <img src="" alt="typescript" />
+                        <img src={typescriptIcon} alt="typescript" />
                         <h2 className="title title_fz16 skills__item-title">Typescript</h2>
                         <p className="skills__item-descr">
-                            
+                        TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.
                         </p>
                     </div>
                 </div>
