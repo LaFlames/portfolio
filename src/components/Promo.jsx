@@ -45,9 +45,6 @@ function Promo() {
                                 <a href="#skills" onClick={closeMenuHandler}>Skills</a>
                             </li>
                             <li className="menu__link">
-                                <a href="#portfolio" onClick={closeMenuHandler}>Works</a>
-                            </li>
-                            <li className="menu__link">
                                 <a href="#contacts" onClick={closeMenuHandler}>Contacts</a>
                             </li>
                         </ul>

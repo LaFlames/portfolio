@@ -5,7 +5,7 @@ import mobileDevIcon from '../icons/about_me/mobile_dev.svg';
 
 export default function About() {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <div className="container">
                 <div className="about__wrapper">
                     <div className="about__photo">
@@ -14,7 +14,7 @@ export default function About() {
                     <div className="about__descr">
                         <h2 className="title title_fz20 about__title">About me</h2>
                         <div className="divider"></div>
-                        <p className="about__text">24 years old. I live in Belarus, Novopolotsk. I am fond of sports, basketball and workout in particular. In 2019 i graduated from the university and received the specialty of a civil engineer. But currently I want become a great front-end developer. Looking for a job for the vacancy Junior front-end developer or tranee position, ready to move.</p>
+                        <p className="about__text">24 years old. I live in Belarus, Novopolotsk. I am fond of sports, basketball and workout in particular. In 2019 i graduated from the university and received the specialty of a civil engineer. Currently I want to become a great front-end developer. Looking for a job for the vacancy Junior front-end developer or tranee position, ready to move.</p>
                     </div>
                     <div className="about__skills">
                         <div className="about__skills-item">

@@ -122,9 +122,6 @@
         &__wrapper {
             grid-template: 550px auto auto / 1fr;
         }
-        &__photo {
-            grid-row: unset;
-        }
         &__skills {
             grid-template-columns: repeat(2, 260px);
             &-item {
@@ -217,12 +214,6 @@
             grid-column: unset;
             width: 100%;
         }
-        &__btn {
-            order: 2;
-            max-width: 220px;
-            margin: 0 auto;
-        }
-
     }
 }
 

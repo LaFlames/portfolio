@@ -50,7 +50,7 @@ function Resume() {
                                         <div className="resume__item-location">Civil engineer diploma | Novopolotsk (2014-2019)</div>
                                     </div>
                                     <div className="resume__item-body">
-                                    Higher technical education. Worked for two years in this specialty. Responsibilities included: work with drawings, autocad.
+                                    Higher technical education. Worked for two years in this specialty. Responsibilities included: work with drawings, autocad, exsel, business correspondence.
                                     </div>
                                 </div>
                             </li>
@@ -70,7 +70,7 @@ function Resume() {
                                         <div className="resume__item-location">2021</div>
                                     </div>
                                     <div className="resume__item-body">
-                                        Work on apps, such as social network, todolists, counter. Orginize data with redux, use typescript.
+                                        Work on apps, such as social network, todolists, counter.
                                     </div>
                                 </div>
                             </li>
