@@ -22,9 +22,9 @@ function Promo() {
 
             <aside className='sidepanel'>
                 <div className="sidepanel__divider"></div>
-                <a href="#" className="sidepanel__link"><img src={facebookLogo} alt="facebook" /></a>
-                <a href="#" className="sidepanel__link"><img src={instagramLogo} alt="instagram" /></a>
-                <a href="#" className="sidepanel__link"><img src={githubLogo} alt="github" /></a>
+                <a href="1" className="sidepanel__link"><img src={facebookLogo} alt="facebook" /></a>
+                <a href="1" className="sidepanel__link"><img src={instagramLogo} alt="instagram" /></a>
+                <a href="1" className="sidepanel__link"><img src={githubLogo} alt="github" /></a>
                 <div className="sidepanel__divider"></div>
             </aside>
 
@@ -35,11 +35,21 @@ function Promo() {
                     </div>
                     <nav>
                         <ul className="menu__list">
-                            <li className="menu__link"><a href="#">About me</a></li>
-                            <li className="menu__link"><a href="#">My experience</a></li>
-                            <li className="menu__link"><a href="#">Skills</a></li>
-                            <li className="menu__link"><a href="#">Works</a></li>
-                            <li className="menu__link"><a href="#">Contacts</a></li>
+                            <li className="menu__link">
+                                <a href="#about" onClick={closeMenuHandler}>About me</a>
+                            </li>
+                            <li className="menu__link">
+                                <a href="#resume" onClick={closeMenuHandler}>My experience</a>
+                            </li>
+                            <li className="menu__link">
+                                <a href="#skills" onClick={closeMenuHandler}>Skills</a>
+                            </li>
+                            <li className="menu__link">
+                                <a href="#portfolio" onClick={closeMenuHandler}>Works</a>
+                            </li>
+                            <li className="menu__link">
+                                <a href="#contacts" onClick={closeMenuHandler}>Contacts</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>

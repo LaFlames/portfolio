@@ -13,8 +13,8 @@ function App() {
       <About />
       <Resume />
       <Skills />
-      {/* <Portfolio />
-      <Contacts /> */}
+      <Portfolio />
+      <Contacts /> 
     </div>
   );
 }

@@ -32,6 +32,30 @@
         }
     
     }
+    .portfolio {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 280px);
+            grid-auto-rows: 280px;
+            justify-content: space-around;
+            .vertical {
+                grid-column: unset;
+                grid-row: unset;
+                img {
+                    height: 280px;
+                }
+                
+            }
+        }
+    }
+    .contacts {
+        &__wrapper {
+            padding: 0;
+            grid-template-columns: 400px 520px;
+        }
+        &__form {
+            grid-template: 45px 190px 45px / repeat(2, 250px);
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -64,7 +88,18 @@
             padding: 0 20px;
         }
     }
-    
+    .contacts {
+        &__wrapper {
+            grid-template-columns: 300px 400px;
+        }
+        &__form {
+            grid-template: 45px 190px 45px / repeat(2, 195px);
+        }
+        &__btn {
+            padding: 8px 25px;
+            line-height: 16px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -98,7 +133,7 @@
         }
     }
     .resume {
-        padding-top: 40px;
+        padding-top: 60px;
         &__wrapper {
             grid-template-columns: 1fr;
             column-gap: 60px;
@@ -106,10 +141,25 @@
         }
     }
     .skills {
-        padding-top: 40px;
+        padding-top: 60px;
         &__items {
             justify-content: center;
             gap: 20px;
+        }
+    }
+    .portfolio {
+        padding-top: 60px;
+    }
+    .contacts {
+        padding-top: 40px;
+        &__photo {
+            display: none;
+        }
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__form {
+            grid-template: 45px 190px 45px / repeat(2, 250px);
         }
     }
 }
@@ -158,6 +208,21 @@
             }
         }
     }
-    
+    .contacts {
+        padding-bottom: 50px;
+        &__form {
+            grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+        }
+        &__textarea {
+            grid-column: unset;
+            width: 100%;
+        }
+        &__btn {
+            order: 2;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+
+    }
 }
 

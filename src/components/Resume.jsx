@@ -6,7 +6,7 @@ import devIcon from '../icons/experience/developer.svg';
 
 function Resume() {
     return (
-        <section className="resume">
+        <section className="resume" id="resume">
             <div className="container">
                 <h2 className="title title_fz20 title__section-title">Experience</h2>
                 <div className="divider"></div>

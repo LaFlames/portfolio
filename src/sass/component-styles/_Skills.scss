@@ -1,10 +1,11 @@
 .skills {
+    background-color: #F6FFFF;
     padding-top: 120px;
     &__title {
         text-align: center;
     }
     &__items {
-        margin-top: 60px;
+        margin-top: 45px;
         display: grid;
         grid-template-rows:  repeat(2, minmax(270px, auto));
         grid-template-columns: repeat(4, 270px);
@@ -24,8 +25,8 @@
             line-height: 18px;
         }
         &:hover {
-            transform: scale(1.03);
-            transition: all .7s;
+            transform: scale(1.05);
+            transition: all .5s;
         }
     }
 }

@@ -9,7 +9,7 @@ import reduxIcon from '../icons/skills/redux.svg';
 
 function Skills() {
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <div className="container">
                 <h2 className="title title_fz20 title__section-title">Skills</h2>    
                 <div className="divider"></div>

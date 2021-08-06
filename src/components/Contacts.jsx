@@ -5,7 +5,7 @@ import myPhoto from '../img/main_photo.jpg';
 
 function Contacts() {
     return (
-        <section className="contacts">
+        <section className="contacts" id="contacts">
             <div className="container">
                 <div className="contacts__wrapper">
                     <div className="contacts__photo">
@@ -15,15 +15,15 @@ function Contacts() {
                         <h2 className="title title_fz20 about__title">Contacts</h2> 
                         <div className="divider"></div>
                         <div className="contacts__social">
-                            <a href="#" className="contacts__link">
+                            <a href="https://t.me/flamesickk" className="contacts__link">
                                 <img src={tgIcon} alt="telegram" />
                             </a>
-                            <a href="#" className="contacts__link">
+                            {/* <a href="#" className="contacts__link">
                                 <img src={tgIcon} alt="telegram" />
                             </a>
                             <a href="#" className="contacts__link">
                                 <img src={tgIcon} alt="telegram" /> 
-                            </a>
+                            </a> */}
                         </div>
                         <div className="title title_fz16 contacts__subtitle">
                             Or leave your report and I will answer you soon!

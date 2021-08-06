@@ -13,25 +13,22 @@ function Portfolio() {
                 <h2 className="title title_fz20 title__section-title">Portfolio</h2>    
                 <div className="divider"></div>
                 <div className="portfolio__wrapper">
-                    <a href="#" className="portfolio__item">
+                    <a href="1" className="portfolio__item">
                         <img src={uberImg} alt="uber" />
                     </a>
-                    <a href="#" className="portfolio__item">
+                    <a href="1" className="portfolio__item">
                         <img src={socialImg} alt="socialnet" />
                     </a>
-                    <a href="#" className="portfolio__item">
+                    <a href="1" className="portfolio__item">
                         <img src={pulseImg} alt="pulse" />
                     </a>
-                    <a href="#" className="portfolio__item vertical">
+                    <a href="1" className="portfolio__item vertical">
                         <img src={todolistImg} alt="todolist" />
                     </a>
-                    <a href="#" className="portfolio__item">
+                    <a href="1" className="portfolio__item">
                         <img src={noImg} alt="no" />
                     </a>
-                    <a href="#" className="portfolio__item">
-                        <img src={noImg} alt="no" />
-                    </a>
-                    <a href="#" className="portfolio__item">
+                    <a href="1" className="portfolio__item">
                         <img src={noImg} alt="no" />
                     </a>
                 </div>
